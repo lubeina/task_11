@@ -31,6 +31,7 @@ urlpatterns = [
 
     path('restaurants/<int:restaurant_id>/item/add/',views.item_create ,name='item-create'),
 
+    path('error/',views.error ,name='error'),
     path('signup/',views.signup ,name='signup'),
     path('signin/',views.signin ,name='signin'),
     path('signout/',views.signout ,name='signout'),
